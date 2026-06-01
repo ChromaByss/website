@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chromabyss</title>
+  <meta name="description" content="Chromabyss static test page deployed with Cloudflare Pages.">
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 30% 20%, rgba(20, 184, 166, 0.22), transparent 30%),
+        linear-gradient(135deg, #111827 0%, #0f172a 50%, #18181b 100%);
+    }
+
+    main {
+      width: min(720px, calc(100% - 40px));
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(40px, 8vw, 84px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      color: #cbd5e1;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>chromabyss.com</h1>
+    <p>Static test page ready for GitHub and Cloudflare Pages deployment.</p>
+  </main>
+</body>
+</html>
