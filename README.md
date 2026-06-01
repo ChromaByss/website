@@ -1,10 +1,10 @@
-# Chromabyss
+# Website
 
 Static test site for `chromabyss.com`.
 
 ## Deploy with Cloudflare Pages
 
-1. Create the GitHub repository `ChromaByss/chromabyss`.
+1. Create the GitHub repository `ChromaByss/website`.
 2. Push this repository to GitHub.
 3. In Cloudflare, go to **Workers & Pages** > **Create application** > **Pages**.
 4. Connect the GitHub repository.
@@ -15,4 +15,3 @@ Static test site for `chromabyss.com`.
 6. Add the custom domains:
    - `chromabyss.com`
    - `www.chromabyss.com`
-
