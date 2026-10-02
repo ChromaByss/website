@@ -1,17 +1,15 @@
-# Website
+# ChromaByss
 
-Static test site for `chromabyss.com`.
+Animated coming-soon page for https://chromabyss.com.
 
-## Deploy with Cloudflare Pages
+`index.html` is self-contained: the SVG logo, styles, and animations are embedded. No dependencies or build step are required. Open it directly in a browser for a local preview.
 
-1. Create the GitHub repository `ChromaByss/website`.
-2. Push this repository to GitHub.
-3. In Cloudflare, go to **Workers & Pages** > **Create application** > **Pages**.
-4. Connect the GitHub repository.
-5. Use these build settings:
-   - Framework preset: `None`
-   - Build command: leave empty
-   - Build output directory: `/`
-6. Add the custom domains:
-   - `chromabyss.com`
-   - `www.chromabyss.com`
+## Cloudflare Pages
+
+- Repository: `ChromaByss/website`
+- Production branch: `main`
+- Framework preset: `None`
+- Build command: empty
+- Build output directory: `/`
+
+Pushing to `main` triggers the connected Cloudflare Pages deployment.
